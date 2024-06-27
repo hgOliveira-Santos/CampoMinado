@@ -1,18 +1,18 @@
 import customtkinter as ctk
-from jogo import jogo
+from comandos import definir_dificuldade
 
 FECHAR_JANELA = lambda: janela.destroy()
 
 def set_fácil():
-    jogo("fácil")
+    definir_dificuldade("fácil")
     FECHAR_JANELA()
 
 def set_intermediário():
-    jogo("intermediário")
+    definir_dificuldade("intermediário")
     FECHAR_JANELA()
 
 def set_especialista():
-    jogo("especialista")
+    definir_dificuldade("especialista")
     FECHAR_JANELA()
 
 
